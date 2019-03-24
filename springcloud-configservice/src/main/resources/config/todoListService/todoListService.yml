@@ -25,8 +25,6 @@ spring:
 #        设置是否收集用于性能调试的数据
         generate_statistics: false
 
-server:
-  port: 1234
 eureka:
   client:
     serviceUrl:
