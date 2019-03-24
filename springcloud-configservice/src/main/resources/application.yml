@@ -1,6 +1,6 @@
 #load profile info from git:
 server:
-  port: 1212
+  port: 1001
 spring:
   cloud:
     config:
