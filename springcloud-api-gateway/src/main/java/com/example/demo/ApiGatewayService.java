@@ -1,16 +1,15 @@
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringCloudApplication
 @EnableZuulProxy
-public class DemoApplication {
+public class ApiGatewayService {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(ApiGatewayService.class, args);
     }
 
 }
