@@ -1,4 +1,4 @@
-#Default port is 1001
+#Default port is 1002
 server:
   port: 1002
 
